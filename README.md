@@ -16,7 +16,7 @@ Vue.use(device)
 ```
 ## Usage
 
-### Methods
+### Directives
 
 - v-if-device.mobile
 - v-if-device.desktop.
