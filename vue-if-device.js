@@ -24,5 +24,6 @@ const device = {
 export default {
   install (Vue) {
     Vue.directive('if-device', device)
+    Vue.prototype.$isMobile = () => isMobile
   }
 }

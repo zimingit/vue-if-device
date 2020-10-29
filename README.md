@@ -14,12 +14,20 @@ npm install --save vue-if-device
 import device from 'vue-if-device'
 Vue.use(device)
 ```
+## Usage
 
 ### Methods
 
 - v-if-device.mobile
 - v-if-device.desktop.
 
+### Functions
+
+The plugin provides one function to use:
+
+| Function | Arguments | Description |
+| --- | --- | --- |
+| `$isMobile` | _None_ | Check in relation to the configuartion if the device type is mobile. |
 
 
 ## License
